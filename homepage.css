@@ -55,3 +55,8 @@ body {
     background-color: var(--background);
 }
 
+#clock
+{
+    font-size: 3.125rem;
+}
+
