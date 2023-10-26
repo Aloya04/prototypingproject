@@ -61,23 +61,24 @@ body {
 
 #clock
 {
+    position: absolute;
     font-size: 3.125rem;
     font-weight: var(--font-light);
-    left: 30px;
-        top: 45px;
+    top: 20px;
+    left: 45px;
+    line-height: normal;
 }
 #formatted-date
 {
     
-        position: absolute;
-        left: 165px;
-        top: 45px;
-        color: #FFF;
-
-font-family: Montserrat;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
+    position: absolute;
+    top: 51px;
+    left: 179px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
       
 }
