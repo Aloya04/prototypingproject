@@ -51,6 +51,8 @@ footer {
 
 .facebook {
     display: flex;
+    margin-bottom: 20px;
+    margin-top: 35px;
 }
 
 .instagram {
@@ -59,10 +61,26 @@ footer {
 
 .fa-brands.fa-square-facebook {
     color: var(--black);
-    font-size: var(--big);
+    font-size: 4rem;
 }
 
 .fa-brands.fa-instagram {
     color: var(--black);
-    font-size: var(--big);
+    font-size: 4rem;
+}
+
+.aside-big {
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside-small {
+    margin-left: 30px;
+}
+
+.socials {
+    font-size: var(--small);
+    font-weight: var(--font-regular);
+    color: var(--black);
 }
