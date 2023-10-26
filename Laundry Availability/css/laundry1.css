@@ -16,6 +16,7 @@ p {
 .MachineData {
     padding: 2rem;
     margin-top: -2rem;
+    font-size: 1.5rem;
 }
 
 .State {
@@ -34,9 +35,10 @@ p {
 .Availability {
     line-height: 3.05rem;
     padding: 3.438rem;
-    ol {
-        font-size: 1.5rem;
-    }
+}
+
+ol {
+    font-size: 1.5rem;
 }
 
 button {
