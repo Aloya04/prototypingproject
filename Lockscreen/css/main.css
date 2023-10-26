@@ -1,6 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
 /*=============== VARIABLES CSS ===============*/
 :root {
     /*========== Colors ==========*/
@@ -25,6 +24,7 @@
     --big: 3rem; /*48px*/
 
     /*========== Font weight ==========*/
+    --font-light: 300;
     --font-regular: 400;
     --font-medium: 500;
     --font-semi-bold: 600;
@@ -54,9 +54,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
+h1 {
+    color: var(--background);
+    font-weight: var(--medium);
+    font-size: var(--medium);
+}
 
 .fa-solid.fa-arrow-left {
     color: var(--background);
@@ -67,31 +72,3 @@ header {
     color: var(--background);
     font-size: var(--big);
 }
-
-
-h1 {
-    color: var(--black);
-    font-family: var(--font-logo);
-    font-weight: var(--font-bold);
-    font-size: var(--medium);
-    text-align: center;
-}
-
-
-div {
-    color: var(--black);
-    font-family: var(--font-body);
-    font-size: 200px;
-    font-style: normal;
-    font-weight: 100;
-    line-height: normal;
-    text-align: center;
-}
-
-article {
-    color: var(--black);
-    font-family: var(--font-body);
-    font-size: var(--medium);
-    text-align: center;
-}
-
