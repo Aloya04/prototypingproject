@@ -1,0 +1,74 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans:wght@700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --white: #FFF;
+    --black: #000;
+    --brick: #9B5B4D;
+    --background: #EAD8D1;
+    --contrast: #D25E46;
+    --light: #D3BBB2;
+    --brick-light: #D3A297;
+    --dark: #451616;
+    --success-green: #49943C;
+    --error-red: #B51F00;
+
+    /*========== Font family ==========*/
+    --font-body: 'Montserrat', sans-serif;
+    --font-logo: 'Work Sans', sans-serif;
+
+    /*========== Font size ==========*/
+    --small: 1.5rem; /*24px*/
+    --medium: 2.25rem; /*36px*/
+    --big: 3rem; /*48px*/
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-body);
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+}
+
+/*=============== HEADER ===============*/
+header {
+    background: var(--brick);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--background);
+    font-weight: var(--medium);
+    font-size: var(--medium);
+}
+
+.fa-solid.fa-arrow-left {
+    color: var(--background);
+    font-size: var(--big);
+}
+
+.fa-solid.fa-house {
+    color: var(--background);
+    font-size: var(--big);
+}
