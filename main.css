@@ -67,9 +67,11 @@ h1 {
 .fa-solid.fa-arrow-left {
     color: var(--background);
     font-size: var(--big);
+    cursor: pointer;
 }
 
 .fa-solid.fa-house {
     color: var(--background);
     font-size: var(--big);
+    cursor: pointer;
 }

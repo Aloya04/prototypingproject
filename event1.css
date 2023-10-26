@@ -45,6 +45,7 @@ p {
     font-size: var(--small);
     font-weight: var(--font-bold);
     padding: 20px 80px;
+    cursor: pointer;
 }
 
 #button-light {
@@ -56,4 +57,5 @@ p {
     font-weight: var(--font-medium);
     padding: 20px 80px;
     margin-left: 50px;
+    cursor: pointer;
 }
