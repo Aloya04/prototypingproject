@@ -22,13 +22,7 @@ p {
 }
 
 .date {
-    padding-left: 180px;
-}
-
-.bolder {
-    font-size: var(--small);
-    font-weight: var(--font-medium);
-    margin-top: 20px;
+    padding-left: 360px;
 }
 
 /*=============== BUTTONS ===============*/
