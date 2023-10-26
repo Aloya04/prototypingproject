@@ -1,0 +1,62 @@
+/*=============== MAIN ===============*/
+* {
+    color: var(--black);
+}
+
+.wrapper {
+    padding: 40px;
+}
+
+h2 {
+    font-size: var(--medium);
+    font-weight: var(--font-semi-bold);
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+p {
+    font-size: var(--small);
+    font-weight: var(--font-regular);
+    padding-bottom: 25px;
+    line-height: 35px;
+}
+
+.date {
+    padding-left: 320px;
+}
+
+.bolder {
+    font-size: var(--small);
+    font-weight: var(--font-medium);
+    margin-top: 20px;
+}
+
+/*=============== BUTTONS ===============*/
+.buttons {
+    padding: 40px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+#button-contrast {
+    border-radius: 37px;
+    background: var(--contrast);
+    border: none;
+    color: white;
+    font-size: var(--small);
+    font-weight: var(--font-bold);
+    padding: 20px 80px;
+    cursor: pointer;
+}
+
+#button-light {
+    border-radius: 37px;
+    background: var(--light);
+    border: none;
+    color: var(--black);
+    font-size: var(--small);
+    font-weight: var(--font-medium);
+    padding: 20px 70px;
+    margin-left: 50px;
+    cursor: pointer;
+}

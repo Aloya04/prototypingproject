@@ -22,7 +22,7 @@ p {
 }
 
 .date {
-    padding-left: 320px;
+    padding-left: 180px;
 }
 
 .bolder {
@@ -34,6 +34,7 @@ p {
 /*=============== BUTTONS ===============*/
 .buttons {
     padding: 40px;
+    padding-left: 50px;
     padding-top: 60px;
 }
 
@@ -45,6 +46,7 @@ p {
     font-size: var(--small);
     font-weight: var(--font-bold);
     padding: 20px 80px;
+    cursor: pointer;
 }
 
 #button-light {
@@ -54,6 +56,7 @@ p {
     color: var(--black);
     font-size: var(--small);
     font-weight: var(--font-medium);
-    padding: 20px 80px;
+    padding: 20px 70px;
     margin-left: 50px;
+    cursor: pointer;
 }
