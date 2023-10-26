@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans:wght@700&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -25,11 +25,10 @@
     --big: 3rem; /*48px*/
 
     /*========== Font weight ==========*/
-  --font-light: 300;
-  --font-regular: 400;
-  --font-medium: 500;
-  --font-semi-bold: 600;
-  --font-bold: 700;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
 }
 
 /*=============== BASE ===============*/
@@ -42,42 +41,34 @@
   
 html {
     scroll-behavior: smooth;
-} 
-header {
-    background-color: var(--brick);
-    color: var(--white);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    height: 101px;
-    padding: 20px;
-    font-weight: var(--f);
-    
-
 }
+
 body {
     background-color: var(--background);
 }
 
-#clock
-{
-    font-size: 3.125rem;
-    font-weight: var(--font-light);
-    left: 30px;
-        top: 45px;
+/*=============== HEADER ===============*/
+header {
+    background: var(--brick);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-#formatted-date
-{
-    
-        position: absolute;
-        left: 165px;
-        top: 45px;
-        color: #FFF;
 
-font-family: Montserrat;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-      
+h1 {
+    color: var(--background);
+    font-weight: var(--medium);
+    font-size: var(--medium);
+}
+
+.fa-solid.fa-arrow-left {
+    color: var(--background);
+    font-size: var(--big);
+}
+
+.fa-solid.fa-house {
+    color: var(--background);
+    font-size: var(--big);
 }
