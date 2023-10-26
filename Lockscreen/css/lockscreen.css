@@ -20,10 +20,4 @@ h2 {
     text-align: center;
 }
 
-article {
-    color: var(--black);
-    font-family: var(--font-body);
-    font-size: var(--medium);
-    text-align: center;
-}
 
