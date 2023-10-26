@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="events.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="icon" href="ravenlogoresized.png" type="image/x-icon">
@@ -20,13 +21,13 @@
             <img src="images/events.jpg" alt="Events">
         </div>
         
-        <div class="description">
+        <div class="wrapper">
             <h2>October</h2>
             <p>Get ready for a month full of fantastic events at Natteravnen Dorm Bar!</p>
             <p>We've got an exciting lineup of activities that will keep the fun rolling all October long.</p>
         </div>
 
-        <div class="beerpong">
+        <div class="box">
             <span class="date">
                 05/10 -
             </span>
@@ -35,7 +36,7 @@
             </span>
         </div>
 
-        <div class="gin">
+        <div class="box">
             <span class="date">
                 07/10 -
             </span>
@@ -44,7 +45,7 @@
             </span>
         </div>
 
-        <div class="karaoke">
+        <div class="box">
             <span class="date">
                 12/10 -
             </span>
@@ -53,7 +54,7 @@
             </span>
         </div>
 
-        <div class="disco">
+        <div class="box">
             <span class="date">
                 14/10 -
             </span>
@@ -62,7 +63,7 @@
             </span>
         </div>
 
-        <div class="ceres">
+        <div class="box">
             <span class="date">
                 19/10 -
             </span>
@@ -71,7 +72,7 @@
             </span>
         </div>
 
-        <div class="lottery">
+        <div class="box">
             <span class="date">
                 21/10 -
             </span>
@@ -80,7 +81,7 @@
             </span>
         </div>
 
-        <div class="vodka">
+        <div class="box">
             <span class="date">
                 26/10 -
             </span>
@@ -89,7 +90,7 @@
             </span>
         </div>
 
-        <div class="halloween">
+        <div class="box">
             <span class="date">
                 28/10 -
             </span>
@@ -98,7 +99,7 @@
             </span>
         </div>
 
-        <div class="openinghours">
+        <div class="wrapper">
             <h2>Opening Hours</h2>
             <p>Thursdays: 21:00 - 00:00<br>
             Saturdays: 22:00 - 4:00</p>
@@ -106,19 +107,32 @@
     </main>
 
     <footer>
-        <img src="images/natteravnenlogo.png" alt="BarLogo">
+        <figure>
+            <img src="images/natteravnenlogo.png" alt="BarLogo">
+        </figure>
         
-        <div class="facebook">
-            <i class="fa-brands fa-square-facebook"></i>
-            <p>Like our Facebook page</p>
-            <span class="partyname">facebook.com/natteravnen.dk</span>
-        </div>
-
-        <div class="instagram">
-            <i class="fa-brands fa-instagram"></i>
-            <p>Follow our Instagram</p>
-            <span class="partyname">@natteravnsbjerg</span>
-        </div>
+        <aside class="aside-big">
+            <div class="facebook">
+                <figure>
+                    <i class="fa-brands fa-square-facebook"></i>
+                </figure>
+                
+                <aside class="aside-small">
+                    <div class="socials">Like our Facebook page</div>
+                    <span class="partyname">facebook.com/natteravnen.dk</span>
+                </aside>
+            </div>
+            <div class="instagram">
+                <figure>
+                    <i class="fa-brands fa-instagram"></i>
+                </figure>
+                
+                <aside class="aside-small">
+                    <div class="socials">Follow our Instagram</div>
+                    <span class="partyname">@natteravnsbjerg</span>
+                </aside>
+            </div>
+        </aside>
 
     </footer>
 </body>
