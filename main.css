@@ -25,10 +25,10 @@
     --big: 3rem; /*48px*/
 
     /*========== Font weight ==========*/
-  --font-regular: 400;
-  --font-medium: 500;
-  --font-semi-bold: 600;
-  --font-bold: 700;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
 }
 
 /*=============== BASE ===============*/
@@ -45,4 +45,30 @@ html {
 
 body {
     background-color: var(--background);
+}
+
+/*=============== HEADER ===============*/
+header {
+    background: var(--brick);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--background);
+    font-weight: var(--medium);
+    font-size: var(--medium);
+}
+
+.fa-solid.fa-arrow-left {
+    color: var(--background);
+    font-size: var(--big);
+}
+
+.fa-solid.fa-house {
+    color: var(--background);
+    font-size: var(--big);
 }
