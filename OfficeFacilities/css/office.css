@@ -1,0 +1,59 @@
+/*=============== MAIN ===============*/
+* {
+    color: var(--black);
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 274px;
+    top: 88px;
+    left: 0;
+    background: linear-gradient(0deg,
+                hsla(0, 0%, 0%, 0) 50%,
+                hsl(0, 0%, 0%) 125%);
+}
+
+.wrapper {
+    padding: 40px;
+}
+
+.caretakers{
+    padding: 40px;
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar-small {
+    height: 144px;
+}
+
+.avatar-big {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: var(--medium);
+    font-weight: var(--font-semi-bold);
+    padding-bottom: 40px;
+}
+
+p {
+    font-size: var(--small);
+    font-weight: var(--font-regular);
+    padding-bottom: 25px;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+.smaller-text {
+    font-size: 1.3rem;
+}
+
+span {
+    font-size: var(--small);
+    font-weight: var(--font-semi-bold);
+}
