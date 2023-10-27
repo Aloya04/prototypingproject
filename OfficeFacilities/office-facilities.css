@@ -1,0 +1,55 @@
+/*=============== MAIN ===============*/
+* {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 274px;
+    top: 88px;
+    left: 0;
+    background: linear-gradient(0deg,
+    hsla(0, 0%, 0%, 0) 70%,
+    hsl(13, 38%, 36%) 125%);
+    z-index: -1;
+}
+
+.wrapper {
+    background: var(--brick-light);
+    margin-bottom: 30px;
+    border-radius: 15px;
+    display: flex;
+    height: 241px;
+    box-shadow: 0 4px 8px 0 rgba(66, 10, 10, 0.5);
+}
+
+img {
+    border-radius: 15px 0 0 15px;
+    position: relative;
+}
+
+main {
+    margin: 100px 40px;
+}
+
+aside {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: var(--medium);
+    font-weight: var(--font-semi-bold);
+    padding-bottom: 20px;
+    color: var(--dark);
+}
+
+p {
+    font-size: var(--small);
+    font-weight: var(--font-regular);
+    padding-bottom: 25px;
+    line-height: 35px;
+    color: var(--dark);
+}

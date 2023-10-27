@@ -8,7 +8,7 @@ p {
     font-size: 1.5rem;
 }
 
-.Machine1 {
+.Machine2 {
     display: flex;
     padding: 3.438rem;
 }
@@ -16,6 +16,7 @@ p {
 .MachineData {
     padding: 2rem;
     margin-top: -2rem;
+    font-size: 1.5rem;
 }
 
 .State {
@@ -35,9 +36,10 @@ p {
     line-height: 3.05rem;
     padding-left: 3.438rem;
     padding-top: 3.438rem;
-    ol {
-        font-size: 1.5rem;
-    }
+}
+
+ol {
+    font-size: 1.5rem;
 }
 
 button {
