@@ -1,10 +1,10 @@
 
 body {
-    background-image: url(../images/Day.jpg);
+    background-image: url(../images/Night.jpg);
 }
 
 h2 {
-    color: var(--black);
+    color: var(--white);
     font-family: var(--font-logo);
     font-weight: var(--font-bold);
     font-size: var(--medium);
@@ -14,7 +14,7 @@ h2 {
 
 
 #clock {
-    color: var(--black);
+    color: var(--white);
     font-family: var(--font-body);
     font-size: 200px;
     font-style: normal;
@@ -24,7 +24,7 @@ h2 {
 }
 
 #dateTime {
-    color: var(--black);
+    color: var(--white);
     font-family: var(--font-body);
     font-size: var(--medium);
     text-align: center;
@@ -33,7 +33,13 @@ h2 {
 
 
 
+#Shhh {
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: var(--medium);
+    text-align: center;
 
+}
 
 #TapAnywhere {
     color: var(--white);
