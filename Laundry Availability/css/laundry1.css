@@ -16,11 +16,12 @@ p {
 .MachineData {
     padding: 2rem;
     margin-top: -2rem;
+    font-size: 1.5rem;
 }
 
 .State {
     font-weight: 700;
-    color: #B51F00;
+    color: var(--success-green);
 }
 
 .WeightAmount {
@@ -34,11 +35,21 @@ p {
 .Availability {
     line-height: 3.05rem;
     padding: 3.438rem;
-    ol {
-        font-size: 1.5rem;
-    }
+    padding-bottom: 0rem;
+    padding-right: 0rem;
 }
 
+#Hurray {
+    font-weight: 600;
+}
+
+.RavenLaundry {
+    position:fixed;
+    padding-left: 24.188rem;
+    margin-top: -15rem;
+
+
+}
 button {
     border-radius: 37px;
     background-color: var(--contrast);
@@ -49,5 +60,5 @@ button {
     height: 4.5rem;
     border: none;
     margin-left: 4.813rem;
-    margin-top: 8rem;
+    margin-top: 17.4rem;
 }
