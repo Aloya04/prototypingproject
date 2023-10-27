@@ -1,0 +1,30 @@
+/*=============== MAIN ===============*/
+* {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.wrapper {
+    background: var(--brick-light);
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+main {
+    margin: 100px 40px;
+}
+
+h2 {
+    font-size: var(--medium);
+    font-weight: var(--font-semi-bold);
+    padding-bottom: 40px;
+    color: var(--dark);
+}
+
+p {
+    font-size: var(--small);
+    font-weight: var(--font-regular);
+    padding-bottom: 25px;
+    line-height: 35px;
+    color: var(--dark);
+}
