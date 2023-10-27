@@ -1,0 +1,129 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans:wght@700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --white: #FFF;
+    --black: #000;
+    --brick: #9B5B4D;
+    --background: #EAD8D1;
+    --contrast: #D25E46;
+    --light: #D3BBB2;
+    --brick-light: #D3A297;
+    --dark: #451616;
+    --success-green: #49943C;
+    --error-red: #B51F00;
+
+    /*========== Font family ==========*/
+    --font-body: 'Montserrat', sans-serif;
+    --font-logo: 'Work Sans', sans-serif;
+
+    /*========== Font size ==========*/
+    --small: 1.5rem; /*24px*/
+    --medium: 3rem; /*36px*/
+    --big: 3rem; /*48px*/
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-body);
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+}
+
+/*=============== HEADER ===============*/
+
+.fa-solid.fa-arrow-left {
+    color: var(--dark);
+    font-size: var(--big);
+    margin: 1.625rem;
+}
+/*
+figure {
+    position: relative;
+    z-index: 0;
+    padding:1.5rem;
+    background-color: var(--white);
+    border-radius: 6.313rem;
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: var(--brick);
+    margin-left: 21rem;
+    margin-right: 20.5rem;
+    margin-top: 14.5rem;
+
+}
+*/
+
+figure {
+    position: relative;
+    z-index: 0;
+    padding: 2.25rem;
+    padding-top: 2rem;
+    background-color: var(--white);
+    border-radius: 6.313rem;
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: var(--brick);
+    margin-left: 20.8rem;
+    margin-right: 20.8rem;
+    margin-top: 14rem;
+
+}
+
+.UiCard {
+    position:absolute;
+    z-index: -1;
+    margin-top: -4rem;
+    margin-left: 6.4rem;
+    margin-right: 0rem;
+    padding-top: 5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 0rem;
+    box-shadow: 0 4px 8px 0 var(--dark);
+    transition: 0.3s;
+    background-color: var(--brick);
+    border-radius: 3.125rem;
+    color: var(--white);
+}
+
+.Success {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.SuccessMessage {
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+button {
+    border-radius: 2.313rem;
+    background-color: var(--contrast);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 33.125rem;
+    height: 4.5rem;
+    border: none;
+    margin-left: 9rem;
+    margin-top: 19rem;
+}
