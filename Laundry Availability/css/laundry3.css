@@ -8,12 +8,12 @@ p {
     font-size: 1.5rem;
 }
 
-.Machine1 {
+.Dryer {
     display: flex;
     padding: 3.438rem;
 }
 
-.MachineData {
+.DryerData {
     padding: 2rem;
     margin-top: -2rem;
     font-size: 1.5rem;
