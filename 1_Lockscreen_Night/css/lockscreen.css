@@ -38,6 +38,7 @@ h2 {
     font-family: var(--font-body);
     font-size: var(--medium);
     text-align: center;
+    margin-top: 100px;
 
 }
 
@@ -46,7 +47,7 @@ h2 {
     font-family: var(--font-body);
     font-size: var(--medium);
     text-align: center;
-    margin-top: 500px;
+    margin-top: 300px;
     
 
 }
