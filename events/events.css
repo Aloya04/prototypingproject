@@ -1,3 +1,8 @@
+/*=============== MAIN ===============*/
+* {
+    color: var(--black);
+}
+
 .wrapper {
     padding: 40px;
 }
@@ -6,44 +11,33 @@ h2 {
     font-size: var(--medium);
     font-weight: var(--font-semi-bold);
     padding-bottom: 40px;
-    color: var(--black);
 }
 
 p {
     font-size: var(--small);
     font-weight: var(--font-regular);
     padding-bottom: 25px;
-    color: var(--black);
     line-height: 35px;
 }
 
 .box {
     background: var(--light);
-    color: var(--black);
     border-radius: 10px;
     padding: 20px 40px;
     margin: 0 40px 20px 40px;
 }
 
-.beerpong {
-    background: var(--light);
-    color: var(--black);
-    border-radius: 10px;
-    padding: 20px 40px;
-    margin: 0 40px 20px 40px;
-}
 .date {
     font-size: var(--small);
     font-weight: var(--font-regular);
-    color: var(--black);
 }
 
 .partyname {
-    color: var(--black);
     font-size: var(--small);
     font-weight: var(--font-medium);
 }
 
+/*=============== FOOTER ===============*/
 footer {
     padding: 40px;
     display: flex;
@@ -59,6 +53,7 @@ footer {
     display: flex;
 }
 
+/*=============== FONT AWESOME ICONS ===============*/
 .fa-brands.fa-square-facebook {
     color: var(--black);
     font-size: 4rem;
@@ -82,5 +77,4 @@ footer {
 .socials {
     font-size: var(--small);
     font-weight: var(--font-regular);
-    color: var(--black);
 }
