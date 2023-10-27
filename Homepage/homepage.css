@@ -59,26 +59,83 @@ body {
     background-color: var(--background);
 }
 
-#clock
-{
+#clock {
     position: absolute;
     font-size: 3.125rem;
     font-weight: var(--font-light);
     top: 20px;
     left: 45px;
     line-height: normal;
+    align-self: flex-start;
 }
-#formatted-date
-{
-    
+
+#formatted-date {
     position: absolute;
-    top: 51px;
-    left: 179px;
+    top: 43px;
+    left: 177px;
     color: #FFF;
     font-family: Montserrat;
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-      
+    align-self: baseline;
+    
+}
+
+#weatherimg {
+    position: absolute;
+    width: 41px;
+    height: 28px;
+    top: 35px;
+    left: 668px;
+}
+#celcius {
+
+    position: absolute;
+    top: 29px;
+    left: 724px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 32px;
+   
+}
+
+#logokontent
+{
+    position: absolute;
+    width: 834px;
+    height: 147px;
+    top: 101px;
+    left: 0;
+    background: linear-gradient(180deg, rgb(114, 61, 49) 0%, rgba(211, 86, 23, 0) 70%);
+}
+
+#adminlogo {
+     
+        position: absolute;
+        top: 53px;
+        left: 64px;
+    }
+#admintext {
+    position: absolute;
+    top: 86px;
+    left: 42px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 0;
+   
+}
+
+#ravenlogo
+{
+     
+        position: absolute;
+        width: 88px;
+        height: 88px;
+        top: 0;
+        left: 0;
 }
