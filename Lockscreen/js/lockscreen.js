@@ -21,18 +21,14 @@ function checkTime(i) {
 
   startTime();
 
-  function getFormattedDate() {
-      const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    
-      const today = new Date();
-      const dayOfWeek = daysOfWeek[today.getDay()];
-      const month = months[today.getMonth()];
-      const day = today.getDate();
-    
-      return dayOfWeek + ", " + month + " " + day;
-    }
-
-const formattedDate = getFormattedDate();
-
-document.getElementById("formatted-date").textContent = formattedDate;
+  const currentDate = new Date();
+  const dayOfWeek = currentDate.getDay();
+  const daysOfWeekArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const currentDayOfWeek = daysOfWeekArray[dayOfWeek];
+  const month = currentDate.getMonth();
+  const monthsArray = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const currentMonth = monthsArray[month];
+  const date = currentDate.getDate();
+  
+  const dateTimeString = `${currentDayOfWeek}, ${currentMonth} ${date}`;
+  document.getElementById("dateTime").textContent = dateTimeString;
