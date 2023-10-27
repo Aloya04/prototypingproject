@@ -1,4 +1,7 @@
 
+body {
+    background-image: url(../images/Day.jpg);
+}
 
 h2 {
     color: var(--black);
@@ -20,4 +23,24 @@ h2 {
     text-align: center;
 }
 
+#dateTime {
+    color: var(--black);
+    font-family: var(--font-body);
+    font-size: var(--medium);
+    text-align: center;
+}
 
+
+
+
+
+
+#TapAnywhere {
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: var(--medium);
+    text-align: center;
+    margin-top: 500px;
+    
+
+}
