@@ -101,6 +101,17 @@ body {
     font-size: 32px;
    
 }
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 274px;
+    top: 88px;
+    left: 0;
+    background: linear-gradient(0deg,
+    hsla(0, 0%, 0%, 0) 70%,
+    hsl(13, 38%, 36%) 125%);
+    z-index: -1;
+}
 
 #logokontent
 {
@@ -109,7 +120,7 @@ body {
     height: 147px;
     top: 101px;
     left: 0;
-    background: linear-gradient(180deg, rgb(114, 61, 49) 0%, rgba(211, 86, 23, 0) 70%);
+   
 }
 
 #adminlogo {
@@ -138,4 +149,5 @@ body {
         height: 88px;
         top: 0;
         left: 0;
+
 }
