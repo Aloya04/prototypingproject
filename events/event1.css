@@ -3,6 +3,11 @@
     color: var(--black);
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
 .shadow {
     position: absolute;
     width: 100%;
@@ -47,6 +52,10 @@ p {
     padding: 40px;
     padding-left: 50px;
     padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
 #button-contrast {

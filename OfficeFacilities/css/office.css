@@ -18,13 +18,32 @@
     padding: 40px;
 }
 
-.caretakers{
-    padding: 40px;
-    padding-top: 0;
+.heading {
+    padding: 40px 40px 0 40px;
+}
+
+.caretaker-photo{
+    padding: 0px 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.caretaker-name {
+    padding: 0px 80px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caretaker-info {
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .avatar-small {
@@ -38,7 +57,7 @@
 h2 {
     font-size: var(--medium);
     font-weight: var(--font-semi-bold);
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 p {
@@ -56,4 +75,13 @@ p {
 span {
     font-size: var(--small);
     font-weight: var(--font-semi-bold);
+}
+
+#map {
+    margin-bottom: 80px;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
