@@ -1,0 +1,128 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --white: #FFF;
+    --black: #000;
+    --brick: #9B5B4D;
+    --background: #EAD8D1;
+    --contrast: #D25E46;
+    --light: #D3BBB2;
+    --brick-light: #D3A297;
+    --dark: #451616;
+    --success-green: #49943C;
+    --error-red: #B51F00;
+
+    /*========== Font family ==========*/
+    --font-body: 'Montserrat', sans-serif;
+    --font-logo: 'Work Sans', sans-serif;
+
+    /*========== Font size ==========*/
+    --small: 1.5rem; /*24px*/
+    --medium: 2.25rem; /*36px*/
+    --big: 3rem; /*48px*/
+
+    /*========== Font weight ==========*/
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-body);
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+}
+.text
+{
+    text-align: center;
+}
+#first {
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 41.5px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 280px;
+}
+#second
+{
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 34.2px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#dots {
+    width: 20px; /* Set a fixed width to prevent movement */
+    text-align: left; /* Align the text to the left within the fixed width */
+}
+#loadingraven
+{
+   margin: 100px auto 15px auto ;
+    width: 140px;
+    height: 140px;
+    display: block;
+    
+}
+
+#barfull {
+    width: 478px;
+    height: 42px;
+    background-color: var(--light);
+    border-radius: 30px;
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+#barnotfull {
+    width: 284px;
+    height: 42px;
+    background-color: var(--brick);
+    border-radius: 20px;
+    animation: progress 3.5s linear ;
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes dot-animation {
+    0% {
+        content: ".";
+    }
+    33% {
+        content: "..";
+    }
+    66% {
+        content: "...";
+    }
+    100% {
+        content: ".";
+    }
+}
+
+#dots::after {
+    content: "";
+    animation: dot-animation 2s infinite;
+}

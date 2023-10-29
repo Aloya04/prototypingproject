@@ -50,29 +50,32 @@ header {
     display: flex;
     align-items: center;
     height: 101px;
-    padding: 20px;
-    font-weight: var(--f);
+    padding: 20px 30px;
+    justify-content: space-between;
+
+    
     
 
 }
 body {
     background-color: var(--background);
 }
-
+#headerboxleft
+{
+    margin: 20px;
+    display: flex;
+}
 #clock {
-    position: absolute;
     font-size: 3.125rem;
     font-weight: var(--font-light);
-    top: 20px;
-    left: 45px;
     line-height: normal;
     align-self: flex-start;
+   
 }
 
 #formatted-date {
-    position: absolute;
-    top: 43px;
-    left: 177px;
+    padding-top: 25px;
+    padding-left: 20px;
     color: #FFF;
     font-family: Montserrat;
     font-size: 1.3rem;
@@ -82,19 +85,20 @@ body {
     align-self: baseline;
     
 }
-
+#headerboxright
+{
+    margin: 20px;
+    display: flex;
+}
 #weatherimg {
-    position: absolute;
+    margin-top: 6px;
     width: 41px;
     height: 28px;
-    top: 35px;
-    left: 668px;
+    
 }
 #celcius {
 
-    position: absolute;
-    top: 29px;
-    left: 724px;
+    padding-left: 20px;
     font-family: "Montserrat", Helvetica;
     font-weight: 300;
     color: #ffffff;
@@ -105,7 +109,7 @@ body {
     position: absolute;
     width: 100%;
     height: 274px;
-    top: 88px;
+    top: 101px;
     left: 0;
     background: linear-gradient(0deg,
     hsla(0, 0%, 0%, 0) 70%,
@@ -113,41 +117,159 @@ body {
     z-index: -1;
 }
 
-#logokontent
+#underheader
 {
-    position: absolute;
-    width: 834px;
+    
+    display: flex;
     height: 147px;
     top: 101px;
     left: 0;
+    justify-content: space-between;
+    align-items: center;
    
 }
 
-#adminlogo {
+#uhboxleft
+{
+    width: 147px;
+    height: 147px;
+    align-items: center;
+    justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
      
-        position: absolute;
-        top: 53px;
-        left: 64px;
-    }
+    
+
+
+        
 #admintext {
-    position: absolute;
-    top: 86px;
-    left: 42px;
+    padding-top: 7px;
     font-family: "Montserrat", Helvetica;
     font-weight: 400;
     color: #000;
-    font-size: 20px;
+    font-size: 1.3rem;
     letter-spacing: 0;
+    text-align: center;
    
 }
 
-#ravenlogo
+#uhboxcenter
+{
+    padding-top: 10px;
+    margin: auto;
+    width: 326px;
+    height: 88px;
+    display: flex;
+    
+    
+}
+
+#raven
 {
      
-        position: absolute;
+        
         width: 88px;
         height: 88px;
-        top: 0;
-        left: 0;
+        
 
+}
+
+#logotext
+{
+    font-family: "Work Sans", Helvetica;
+    font-weight: 700;
+    color: var(--text-1);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+#switch
+{
+    width: 102px;
+    height: 49px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: var(--text-1);
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+#flag
+{
+    width: 46px;
+    height: 45px;
+    
+}
+#switchtext
+{
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 500;
+    color: var(--text-1);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 7px;
+    padding-left: 5px;
+    padding-right: 13px;
+}
+
+#main1
+{
+    width: 834px;
+    height: 401px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#main2
+{
+    width: 834px;
+    height: 401px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+}
+
+.mainimg
+{
+    width: 334px;
+    height: 176px;
+    
+}
+
+.rectangle1
+{
+    width: 334px;
+    height: 401px;
+    background-color: var(--brick-light);
+    border-radius: 20px;
+}
+
+#rectangle2
+{
+    width: 334px;
+    height: 401px;
+    background-color: var(--brick-light);
+    border-radius: 20px;
+}
+
+.rectext
+{
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: var(--dark);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 25px;
 }
