@@ -1,0 +1,78 @@
+
+body {
+    background-image: url(../images/Night.jpg);
+}
+
+h2 {
+    color: var(--white);
+    font-family: var(--font-logo);
+    font-weight: var(--font-bold);
+    font-size: var(--medium);
+    text-align: center;
+    margin-top: 5.375rem;
+}
+
+
+#clock {
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+#dateTime {
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: var(--medium);
+    text-align: center;
+}
+
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.weather img {
+    display: inline;
+    vertical-align: middle;
+    width: 41px;
+    height: 28px;
+}
+
+.weather p {
+    display: inline;
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: 2rem;
+    margin-left: 12px;
+}
+
+
+
+
+
+
+#Shhh {
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: var(--medium);
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#TapAnywhere {
+    color: var(--white);
+    font-family: var(--font-body);
+    font-size: var(--medium);
+    text-align: center;
+    margin-top: 300px;
+    
+
+}
