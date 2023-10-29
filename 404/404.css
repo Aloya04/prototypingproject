@@ -1,0 +1,40 @@
+body {
+    background-image: url(../404/404bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-weight: var(--font-bold);
+    font-size: 8rem;
+    color: var(--brick);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+span {
+    font-weight: var(--font-medium);
+    font-size: var(--medium);
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 2.313rem;
+    background-color: var(--contrast);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 33.125rem;
+    height: 4.5rem;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 45rem;
+    text-decoration: none;
+}
