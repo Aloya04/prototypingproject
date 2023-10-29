@@ -53,13 +53,14 @@ body {
     margin-top: 43px;
     margin-left: 42px;
 }
-#container
+/* #container
 {
     width: 652px;
     height: 400px;
     margin-top: 210px;
     margin:auto;
-}
+    
+} */
 #circle
 {
     width: 190px;
@@ -68,11 +69,55 @@ body {
     border-radius: 95px;
     border: 11px solid;
     border-color: var(--brick);
+    margin-top: 1000px;
+    z-index: 2;
     margin: auto;
+    position: relative;
+    
+}
+#rectangle
+{
+    width: 652px;
+    height: 305px;
+    background-color: var(--brick);
+    border-radius: 67px;
+    position:relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+#rectext
+{
+   
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+    
 }
 
 #exclamation
 {
     display: block;
-    margin: 25px auto;
+    margin: 35px auto;
+}
+#bigarrow 
+{
+    display: block;
+    margin: auto;
+    margin-top: 250px;
+    animation: bounce 2s infinite; 
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Start and end at the same position */
+    }
+    50% {
+        transform: translateY(50px); /* Move up by 10px in the middle */
+    }
 }
