@@ -3,6 +3,10 @@
     color: var(--black);
 }
 
+img {
+    display: block;
+    margin: auto;
+}
 .shadow {
     position: absolute;
     width: 100%;
