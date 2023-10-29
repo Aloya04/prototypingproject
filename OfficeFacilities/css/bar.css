@@ -35,11 +35,6 @@ p {
 
 
 
-span {
-    font-size: var(--small);
-    font-weight: var(--font-semi-bold);
-}
-
 
 .buttons {
    padding-left: 40px;
