@@ -224,7 +224,7 @@ body {
 
 #main1
 {
-    width: 834px;
+    
     height: 401px;
     display: flex;
     justify-content: space-evenly;
@@ -232,7 +232,7 @@ body {
 }
 #main2
 {
-    width: 834px;
+   
     height: 401px;
     display: flex;
     justify-content: space-evenly;
