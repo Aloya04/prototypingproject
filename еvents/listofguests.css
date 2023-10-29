@@ -1,0 +1,54 @@
+/*=============== MAIN ===============*/
+* {
+    color: var(--black);
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 274px;
+    top: 88px;
+    left: 0;
+    background: linear-gradient(0deg,
+                hsla(0, 0%, 0%, 0) 50%,
+                hsl(0, 0%, 0%) 125%);
+}
+
+.wrapper {
+    padding: 40px;
+    overflow: hidden;
+}
+
+
+p {
+    font-size: var(--small);
+    font-weight: var(--font-regular);
+    line-height: 35px;
+    padding-top: 0;
+    margin-top: 0;
+    float: left;
+    width: 50%;
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+ }
+ 
+ 
+ #button-contrast {
+     border-radius: 37px;
+     background: var(--contrast);
+     border: none;
+     color: white;
+     font-size: var(--small);
+     font-weight: var(--font-bold);
+     padding: 20px 252px;
+     cursor: pointer;
+
+ }
+
