@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
 
 body {
     background-image: url(../images/Day.jpg);
@@ -18,7 +20,7 @@ h2 {
     font-family: var(--font-body);
     font-size: 200px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     line-height: normal;
     text-align: center;
 }
@@ -52,8 +54,6 @@ h2 {
     font-size: 2rem;
     margin-left: 12px;
 }
-
-
 
 
 #TapAnywhere {
