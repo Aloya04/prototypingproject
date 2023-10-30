@@ -1,0 +1,276 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --white: #FFF;
+    --black: #000;
+    --brick: #9B5B4D;
+    --background: #EAD8D1;
+    --contrast: #D25E46;
+    --light: #D3BBB2;
+    --brick-light: #D3A297;
+    --dark: #451616;
+    --success-green: #49943C;
+    --error-red: #B51F00;
+
+    /*========== Font family ==========*/
+    --font-body: 'Montserrat', sans-serif;
+    --font-logo: 'Work Sans', sans-serif;
+
+    /*========== Font size ==========*/
+    --small: 1.5rem; /*24px*/
+    --medium: 2.25rem; /*36px*/
+    --big: 3rem; /*48px*/
+
+    /*========== Font weight ==========*/
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-body);
+}
+  
+html {
+    scroll-behavior: smooth;
+} 
+header {
+    background-color: var(--brick);
+    color: var(--white);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 101px;
+    padding: 20px 30px;
+    justify-content: space-between;
+
+    
+    
+
+}
+body {
+    background-color: var(--background);
+}
+#headerboxleft
+{
+    margin: 20px;
+    display: flex;
+}
+#clock {
+    font-size: 3.125rem;
+    font-weight: var(--font-light);
+    line-height: normal;
+    align-self: flex-start;
+   
+}
+
+#formatted-date {
+    padding-top: 25px;
+    padding-left: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    align-self: baseline;
+    
+}
+#headerboxright
+{
+    margin: 20px;
+    display: flex;
+}
+#weatherimg {
+    margin-top: 6px;
+    width: 41px;
+    height: 28px;
+    
+}
+#celcius {
+
+    padding-left: 20px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 32px;
+   
+}
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 274px;
+    top: 101px;
+    left: 0;
+    background: linear-gradient(0deg,
+    hsla(0, 0%, 0%, 0) 70%,
+    hsl(13, 38%, 36%) 125%);
+    z-index: -1;
+}
+
+#underheader
+{
+    
+    display: flex;
+    height: 147px;
+    top: 101px;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#uhboxleft
+{
+    width: 147px;
+    height: 147px;
+    align-items: center;
+    justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+     
+    
+
+
+        
+#admintext {
+    padding-top: 7px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #000;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    text-align: center;
+   
+}
+
+#uhboxcenter
+{
+    padding-top: 10px;
+    margin: auto;
+    width: 326px;
+    height: 88px;
+    display: flex;
+    
+    
+}
+
+#raven
+{
+     
+        
+        width: 88px;
+        height: 88px;
+        
+
+}
+
+#logotext
+{
+    font-family: "Work Sans", Helvetica;
+    font-weight: 700;
+    color: var(--text-1);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+#switch
+{
+    width: 102px;
+    height: 49px;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: var(--text-1);
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+#flag
+{
+    width: 46px;
+    height: 45px;
+    
+}
+#switchtext
+{
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 500;
+    color: var(--text-1);
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 7px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 6px;
+}
+
+#main1
+{
+    
+    height: 401px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+#main2
+{
+   
+    height: 401px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+}
+
+.mainimg
+{
+    width: 334px;
+    height: 176px;
+    
+}
+
+.rectangle1
+{
+    width: 334px;
+    height: 401px;
+    background-color: var(--brick-light);
+    border-radius: 20px;
+}
+
+#rectangle2
+{
+    width: 334px;
+    height: 401px;
+    background-color: var(--brick-light);
+    border-radius: 20px;
+}
+
+.rectext
+{
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: var(--dark);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 20px;
+    margin-left: 25px;
+}
