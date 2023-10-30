@@ -76,7 +76,7 @@ body {
     width: 652px;
     height: 338px;
     background-color: var(--brick);
-    border-radius: 67px;
+    border-radius: 50px;
     z-index: 1;
     display: flex;
     justify-content: center;

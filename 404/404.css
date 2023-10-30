@@ -1,3 +1,7 @@
+* {
+    text-decoration: none;
+}
+
 body {
     background-image: url(../404/404bg.jpg);
     background-size: cover;

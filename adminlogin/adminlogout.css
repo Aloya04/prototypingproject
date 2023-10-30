@@ -37,6 +37,7 @@
     padding: 0;
     margin: 0;
     font-family: var(--font-body);
+    text-decoration: none;
 }
   
 html {
@@ -54,6 +55,7 @@ body {
     margin-top: 43px;
     margin-left: 42px;
 }
+
 #circle
 {
     width: 190px;
@@ -73,7 +75,7 @@ body {
 #rectangle
 {
     width: 652px;
-    height: 305px;
+    height: 338px;
     background-color: var(--brick);
     border-radius: 50px;
     z-index: 1;
@@ -82,38 +84,36 @@ body {
     align-items: center;
     margin: auto;
     margin-top: 200px;
-    
 }
 
 #rectext
 {
-   
     color: #FFF;
     font-family: Montserrat;
     font-size: 2.25rem;
     font-weight: 400;
     text-align: center;
+    line-height: 50px;
     
 }
 
-#exclamation
+#checkmark
 {
     display: block;
     margin: 35px auto;
 }
-#bigarrow 
-{
+
+button {
+    border-radius: 2.313rem;
+    background-color: var(--contrast);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 33.125rem;
+    height: 4.5rem;
+    border: none;
     display: block;
     margin: auto;
-    margin-top: 150px;
-    animation: bounce 2s infinite; 
-}
-
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0); /* Start and end at the same position */
-    }
-    50% {
-        transform: translateY(50px); /* Move up by 10px in the middle */
-    }
+    margin-top: 6rem;
+    cursor: pointer;
 }
