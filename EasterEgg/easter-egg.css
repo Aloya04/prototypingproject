@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #EAD8D1;
+}
+
+:root {
+    --brick: #9B5B4D;
+    --dark: #47150A;
+    --contrast: #D25E46;
+}
+
+h1 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 128px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+    color: #9B5B4D;
+}
+
+h2 {
+    font-family:'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-left: 70px;
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background: transparent;
+    font-size: 32px;
+    z-index: 1;
+    text-align: center;
+}
+#game{
+    width: 520px;
+    height: 620px;
+    border-radius: 20px;
+    background-color: #47150A;
+    margin: auto;
+    overflow: hidden;
+    position: relative;   
+}
+
+#block{
+    width: 50px;
+    height: 620px;
+    background-color: #9B5B4D;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+
+@keyframes block{
+    0%{left:400px}
+    100%{left:-50px}
+}
+
+#hole{
+    width: 50px;
+    height: 150px;
+    background-color: #47150A;
+    position: relative;
+    left: 400px;
+    top: -620px;
+    animation: block 2s infinite linear;
+}
+
+#character{
+    width: 30px;
+    height: 30px;
+    background-color: #ce472c;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;  
+    justify-content: center;  
+    align-items: center;
+}
+
+p {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 2.313rem;
+    background-color: var(--contrast);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 33.125rem;
+    height: 4.5rem;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    text-decoration: none;
+}

@@ -1,0 +1,123 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --white: #FFF;
+    --black: #000;
+    --brick: #9B5B4D;
+    --background: #EAD8D1;
+    --contrast: #D25E46;
+    --light: #D3BBB2;
+    --brick-light: #D3A297;
+    --dark: #451616;
+    --success-green: #49943C;
+    --error-red: #B51F00;
+
+    /*========== Font family ==========*/
+    --font-body: 'Montserrat', sans-serif;
+    --font-logo: 'Work Sans', sans-serif;
+
+    /*========== Font size ==========*/
+    --small: 1.5rem; /*24px*/
+    --medium: 2.25rem; /*36px*/
+    --big: 3rem; /*48px*/
+
+    /*========== Font weight ==========*/
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-body);
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+}
+#arrow
+{
+    width: 57px;
+    height: 49px;
+    margin-top: 43px;
+    margin-left: 42px;
+}
+/* #container
+{
+    width: 652px;
+    height: 400px;
+    margin-top: 210px;
+    margin:auto;
+    
+} */
+#circle
+{
+    width: 190px;
+    height: 190px;
+    background-color: #ffffff;
+    border-radius: 95px;
+    border: 11px solid;
+    border-color: var(--brick);
+    margin-top: 1000px;
+    z-index: 2;
+    margin: auto;
+    position: relative;
+    
+}
+#rectangle
+{
+    width: 652px;
+    height: 305px;
+    background-color: var(--brick);
+    border-radius: 67px;
+    position:relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+#rectext
+{
+   
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+#exclamation
+{
+    display: block;
+    margin: 35px auto;
+}
+#bigarrow 
+{
+    display: block;
+    margin: auto;
+    margin-top: 250px;
+    animation: bounce 2s infinite; 
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Start and end at the same position */
+    }
+    50% {
+        transform: translateY(50px); /* Move up by 10px in the middle */
+    }
+}
