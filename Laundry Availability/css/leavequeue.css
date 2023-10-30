@@ -1,0 +1,139 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Work+Sans:wght@700&display=swap');
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --white: #FFF;
+    --black: #000;
+    --brick: #9B5B4D;
+    --background: #EAD8D1;
+    --contrast: #D25E46;
+    --light: #D3BBB2;
+    --brick-light: #D3A297;
+    --dark: #451616;
+    --success-green: #49943C;
+    --error-red: #B51F00;
+
+    /*========== Font family ==========*/
+    --font-body: 'Montserrat', sans-serif;
+    --font-logo: 'Work Sans', sans-serif;
+
+    /*========== Font size ==========*/
+    --small: 1.5rem; /*24px*/
+    --medium: 2.25rem; /*36px*/
+    --big: 3rem; /*48px*/
+
+    /*========== Font weight ==========*/
+    --font-light: 300;
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+}
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-body);
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background);
+}
+
+#arrow
+{
+    width: 57px;
+    height: 49px;
+    margin-top: 43px;
+    margin-left: 42px;
+}
+
+#circle
+{
+    width: 190px;
+    height: 190px;
+    background-color: #ffffff;
+    border-radius: 95px;
+    border: 11px solid;
+    border-color: var(--brick);
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#rectangle
+{
+    width: 652px;
+    height: 338px;
+    background-color: var(--brick);
+    border-radius: 67px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#rectext
+{
+   
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+#question
+{
+    display: block;
+    margin: 35px auto;
+}
+
+#yes {
+    width: 264px;
+    height: 91px;
+    border-radius: 30px;
+    background: var(--contrast);
+    border: none;
+    font-size: var(--medium);
+    color: var(--white);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+#no {
+    width: 264px;
+    height: 91px;
+    border-radius: 30px;
+    background: var(--light);
+    border: none;
+    font-size: var(--medium);
+    color: var(--black);
+    font-weight: var(--font-medium);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
