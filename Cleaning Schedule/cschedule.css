@@ -1,11 +1,7 @@
 /*=============== MAIN ===============*/
 * {
     color: var(--black);
-}
-
-img {
-    display: block;
-    margin: auto;
+    text-decoration: none;
 }
 
 .shadow {
@@ -15,12 +11,9 @@ img {
     top: 88px;
     left: 0;
     background: linear-gradient(0deg,
-                hsla(0, 0%, 0%, 0) 50%,
-                hsl(0, 0%, 0%) 125%);
-}
-
-.wrapper {
-    padding: 40px;
+    hsla(0, 0%, 0%, 0) 70%,
+    hsl(13, 38%, 36%) 125%);
+    z-index: -1;
 }
 
 h2 {
@@ -37,46 +30,93 @@ p {
     line-height: 35px;
 }
 
-.date {
-    padding-left: 180px;
-}
-
-.bolder {
-    font-size: var(--small);
-    font-weight: var(--font-medium);
-    margin-top: 20px;
-}
-
 /*=============== BUTTONS ===============*/
-.buttons {
-    padding: 40px;
-    padding-left: 50px;
-    padding-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
+.dropdown {
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 40px;
 }
 
-#button-contrast {
-    border-radius: 37px;
-    background: var(--contrast);
-    border: none;
-    color: white;
+.dropdown button {
+   border: none;
+   border-radius: 37px;
+   background: var(--contrast);
+   color: var(--white);
+   font-weight: var(--font-medium);
+   font-size: var(--small);
+   padding: 20px 30px;
+   margin-right: 40px;
+   cursor: pointer;
+}
+
+.dropdown a {
+    display: block;
+    color: var(--dark);
     font-size: var(--small);
-    font-weight: var(--font-bold);
-    padding: 20px 80px;
-    cursor: pointer;
+    font-weight: var(--font-semi-bold);
+    padding: 20px 25px;
 }
 
-#button-light {
-    border-radius: 37px;
+.dropdown a:hover{
+    background: var(--brick);
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background: var(--brick-light);
+    min-width: 210px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 10px var(--dark);
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown .content2 {
+    display: none;
+    position: absolute;
+    background: var(--brick-light);
+    min-width: 170px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 10px var(--dark);
+}
+
+.dropdown:hover .content2{
+    display: block;
+}
+
+.fa-solid.fa-chevron-down {
+    color: var(--white);
+    margin: 0 20px;
+}
+
+table {
+    width: 90%;
+    text-align: center;
+    margin: 40px;
+}
+
+th {
+    background: var(--dark);
+    color: var(--background);
+    font-size: 20px;
+    padding: 20px;
+}
+
+td {
     background: var(--light);
-    border: none;
-    color: var(--black);
-    font-size: var(--small);
+    padding: 10px 0;
+    color: var(--dark);
     font-weight: var(--font-medium);
-    padding: 20px 70px;
-    margin-left: 50px;
-    cursor: pointer;
+    font-size: 20px;
+}
+
+.footer {
+    height: 50px;
 }
