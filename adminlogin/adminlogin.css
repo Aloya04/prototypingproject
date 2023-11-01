@@ -38,6 +38,8 @@
     padding: 0;
     margin: 0;
     font-family: var(--font-body);
+    text-decoration: none;
+    color: inherit;
 }
   
 html {
