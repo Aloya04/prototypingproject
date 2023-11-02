@@ -23,4 +23,4 @@ var clickCount = 0;
 
         setTimeout(function () {
             window.location.href = "/1_Lockscreen_Day/index.html"; 
-          }, 10000);
+          }, 120000);
