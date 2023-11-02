@@ -22,5 +22,5 @@ var clickCount = 0;
 
 
         setTimeout(function () {
-            window.location.href = "homepage.html"; 
-          }, 2000);
+            window.location.href = "/1_Lockscreen_Day/index.html"; 
+          }, 10000);
