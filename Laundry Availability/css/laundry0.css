@@ -8,7 +8,7 @@
     margin-right: 4.125rem;
     margin-bottom: 1.625rem;
     display: flex;
-    box-shadow: 0 4px 8px 0 var(--dark);
+    box-shadow: 2px 2px 5px rgba(58, 14, 14, 0.747);
     transition: 0.3s;
     background-color: var(--brick-light);
     border-radius: 1.25rem;
@@ -19,7 +19,7 @@
     margin-right: 4.125rem;
     margin-bottom: 1.625rem;
     display: flex;
-    box-shadow: 0 4px 8px 0 var(--dark);
+    box-shadow: 2px 2px 5px rgba(58, 14, 14, 0.747);
     transition: 0.3s;
     background-color: var(--brick-light);
     border-radius: 1.25rem;
@@ -29,7 +29,7 @@
     padding: 1.625rem;
     margin-right: 4.125rem;
     display: flex;
-    box-shadow: 0 4px 8px 0 var(--dark);
+    box-shadow: 2px 2px 5px rgba(58, 14, 14, 0.747);
     transition: 0.3s;
     background-color: var(--brick-light);
     border-radius: 1.25rem;
