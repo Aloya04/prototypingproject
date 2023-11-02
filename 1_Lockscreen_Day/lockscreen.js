@@ -35,7 +35,7 @@ function checkTime(i) {
     var currentMinute = currentTime.getMinutes();
 
     if ((currentHour >= 23 || currentHour < 6)) {
-        window.location.href = "../1_Lockscreen_Night/index.html";
+        window.location.href = "../1_Lockscreen_Night/index2.html";
     }
 }
 
