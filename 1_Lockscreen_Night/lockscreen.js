@@ -29,7 +29,7 @@ function checkTime(i) {
   const dateTimeString = `${currentDayOfWeek}, ${currentMonth} ${date}`;
   document.getElementById("dateTime").textContent = dateTimeString;
 
-
+  function redirectToNewPage() {
   var currentTime = new Date();
   var currentHour = currentTime.getHours();
   var currentMinute = currentTime.getMinutes();
@@ -37,6 +37,7 @@ function checkTime(i) {
   if ((currentHour <= 23 || currentHour > 6)) {
       window.location.href = "../1_Lockscreen_Day/index.html";
   }
+}
 
 // Call the function when the page loads
 window.onload = redirectToNewPage;
