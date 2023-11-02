@@ -19,3 +19,8 @@ var clickCount = 0;
             }, 1500);  // 1.5 second (1500 milliseconds)
             redirectToPage();
         });
+
+
+        setTimeout(function () {
+            window.location.href = "homepage.html"; 
+          }, 2000);
