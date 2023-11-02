@@ -1,6 +1,7 @@
 /*=============== MAIN ===============*/
 * {
     color: var(--black);
+    text-decoration: none;
 }
 
 img {

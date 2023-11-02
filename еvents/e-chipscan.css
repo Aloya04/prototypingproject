@@ -50,9 +50,13 @@ body {
 /*=============== HEADER ===============*/
 
 .fa-solid.fa-arrow-left {
-    color: var(--dark);
     font-size: var(--big);
     margin: 1.625rem;
+    color: var(--dark);
+    width: 57px;
+    height: 49px;
+    margin-top: 43px;
+    margin-left: 42px;
 }
 
 figure {
@@ -97,4 +101,14 @@ figure {
 .ArrowDown {
     margin-left: 19.5rem;
     margin-top: 25rem;
+    animation: bounce 2s infinite; 
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Start and end at the same position */
+    }
+    50% {
+        transform: translateY(50px); /* Move up by 10px in the middle */
+    }
 }
