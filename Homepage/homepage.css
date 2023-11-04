@@ -142,15 +142,10 @@ body {
      align-items: center;
 }
 
-     
-    
-
-
-        
 #admintext {
     padding-top: 7px;
     font-family: "Montserrat", Helvetica;
-    font-weight: 400;
+    font-weight: var(--font-medium);
     color: #000;
     font-size: 1.3rem;
     letter-spacing: 0;
@@ -254,7 +249,7 @@ body {
     height: 401px;
     background-color: var(--brick-light);
     border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(58, 14, 14, 0.747);
+    box-shadow: 2px 2px 5px rgba(58, 14, 14, 0.5);
 }
 
 .rectext

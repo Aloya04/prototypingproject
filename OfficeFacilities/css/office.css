@@ -77,6 +77,10 @@ span {
     font-weight: var(--font-semi-bold);
 }
 
+.repairs {
+    font-weight: var(--font-semi-bold);
+}
+
 #map {
     margin-bottom: 80px;
 }

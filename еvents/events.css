@@ -24,6 +24,19 @@ img {
     padding: 40px;
 }
 
+/*
+#editicon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon {
+    margin: 0;
+    padding-bottom: 40px;
+}
+*/
+
 h2 {
     font-size: var(--medium);
     font-weight: var(--font-semi-bold);
@@ -42,7 +55,7 @@ p {
     border-radius: 10px;
     padding: 20px 40px;
     margin: 0 40px 20px 40px;
-    box-shadow: 2px 2px 5px rgba(58, 14, 14, 0.747);
+    box-shadow: 2px 2px 5px rgba(58, 14, 14, 0.5);
 }
 
 .date {
