@@ -81,10 +81,6 @@ span {
     font-weight: var(--font-semi-bold);
 }
 
-#map {
-    margin-bottom: 80px;
-}
-
 img {
     display: block;
     margin: auto;
