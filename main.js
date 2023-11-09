@@ -1,4 +1,4 @@
-// This code counts the number of clicks within a 2-second time frame. 
+// This code counts the number of clicks within a 1.5-second time frame. 
 // If the click count reaches or exceeds 10, it redirects the user to 'easter-egg.html'. 
 // If there is no click within 1.5 seconds, the count is reset.
 
