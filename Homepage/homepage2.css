@@ -44,7 +44,13 @@
   
 html {
     scroll-behavior: smooth;
-} 
+    background: linear-gradient(#d7a7a7, #9198e5);
+    transform: scale(0.6);
+    transform-origin: center top; /* Anchors scaling to the horizontal center and top of the page */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 header {
     background-color: var(--brick);
     color: var(--white);
@@ -60,7 +66,25 @@ header {
 
 }
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container {
     background-color: var(--background);
+    position: relative;
+    height:1194px;
+    width:834px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    align-self: center;
+    overflow: hidden;
+    outline: 10px solid black;
+    
 }
 #headerboxleft
 {
@@ -113,10 +137,9 @@ body {
     height: 274px;
     top: 101px;
     left: 0;
-    background: linear-gradient(0deg,
-    hsla(0, 0%, 0%, 0) 70%,
-    hsl(13, 38%, 36%) 125%);
-    z-index: -1;
+    background: linear-gradient(0deg, hsla(0, 0%, 0%, 0) 70%, hsl(13, 38%, 36%) 125%);
+    z-index: 0;
+    pointer-events: none; /* Prevents the element from receiving any pointer (mouse, touch) events */
 }
 
 #underheader

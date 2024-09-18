@@ -23,4 +23,6 @@ var clickCount = 0;
 
         setTimeout(function () {
             window.location.href = "../index.html"; 
-          }, 120000);
+          }, 300000);
+
+ var r = documentqueryselector('#result')

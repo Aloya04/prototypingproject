@@ -2,7 +2,51 @@
 * {
     color: var(--black);
     text-decoration: none;
+    box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+    background: linear-gradient(#d7a7a7, #9198e5);
+    transform: scale(0.6);
+    transform-origin: center top; /* Anchors scaling to the horizontal center and top of the page */
+    width: 100vw;
+    height: 100vh;
+    overflow: auto; /* Allow scrolling on the whole page */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    overflow: hidden; /* Hide overflow on body to prevent double scrollbars */
+}
+
+.container {
+    background-color: var(--background);
+    position: relative;
+    height: 1194px; /* Fixed height if required */
+    width: 834px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Allow vertical scrolling if content overflows */
+    margin: 1rem auto;
+    align-self: center;
+    outline: 10px solid black;
+}
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
 
 .photo {
     display: block;
@@ -93,6 +137,7 @@ button {
     margin-top: 3rem;
     margin-bottom: 3rem;
     text-decoration: none;
+    cursor: pointer;
 }
 /*=============== FOOTER ===============*/
 footer {

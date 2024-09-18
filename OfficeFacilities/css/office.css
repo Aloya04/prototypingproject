@@ -3,6 +3,48 @@
     color: var(--black);
 }
 
+html {
+    scroll-behavior: smooth;
+    background: linear-gradient(#d7a7a7, #9198e5);
+    transform: scale(0.6);
+    transform-origin: center top; /* Anchors scaling to the horizontal center and top of the page */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrollbar on the html element */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+}
+
+.container {
+    background-color: var(--background);
+    position: relative;
+    height: 1194px; /* Adjust height as needed */
+    width: 834px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    align-self: center;
+    overflow: auto; /* Allow scrolling if content exceeds container */
+    outline: 10px solid black;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
 .shadow {
     position: absolute;
     width: 100%;
@@ -22,7 +64,7 @@
     padding: 40px 40px 0 40px;
 }
 
-.caretaker-photo{
+.caretaker-photo {
     padding: 0px 80px;
     width: 100%;
     display: flex;

@@ -11,7 +11,44 @@
     --dark: #47150A;
     --contrast: #D25E46;
 }
+html {
+    scroll-behavior: smooth;
+    background: linear-gradient(#d7a7a7, #9198e5);
+    transform: scale(0.6);
+    transform-origin: center top;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent !important;
+    
+}
+
+.container {
+    position: relative;
+    height: 1194px;
+    width: 834px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    align-self: center;
+    overflow: hidden;
+    outline: 10px solid black;
+
+    /* Set background image to container */
+    background-image: url(../images/Night.jpg);
+    background-size: cover; /* Ensures the image scales to cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeated image */
+}
 h1 {
     font-family:'Montserrat', sans-serif;
     font-size: 128px;
